@@ -14,3 +14,4 @@ print "He's got %s eyes and %s hair" % (eyes, hair)
 print "His teet are usually %s, depending on the coffee" % teeth
 
 print "If I add %d, %d, and %d, I get %d" % ( age, height, weight, age + height + weight)
+print "Testing out the %%r variable: %r" % "foo%1"
