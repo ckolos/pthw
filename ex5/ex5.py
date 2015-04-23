@@ -20,3 +20,6 @@ print "Testing out the %%r variable: %r" % "foo%1"
 print "testing out the various python formatting characters"
 print "Here is the number %d as a hex, lower case, using %%x: %x" % (total,total)
 print "Here is the number %d as a hex, upper case, using %%X: %X" % (total,total)
+
+print "If you were in England, you could say that %s is %0.2f cm tall and weighs %0.3f kilos" % ( name, height * 2.540, weight * 2.2046)
+print "%s weighs %0.2f stone" %(name, weight * 0.071429)
