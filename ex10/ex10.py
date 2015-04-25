@@ -13,3 +13,9 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+loud_cat = "\a"
+hex_cat = "\x26"
+
+print "boing", loud_cat
+print "hex cat:", hex_cat
