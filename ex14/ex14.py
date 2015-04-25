@@ -13,9 +13,14 @@ lives = raw_input(prompt)
 print "What kind of computer do you have %s?" % user_name
 computer = raw_input(prompt)
 
+print "How big are your feet %s?" % user_name
+feet = raw_input(prompt)
+
 print '''
 Alright, so you said %r about liking me.
 You live in %r. Not sure where that is.
 And you have %r computer. Nice.
-''' % (likes, lives, computer)
+
+Plus you have size %s feet. I like feet.
+''' % (likes, lives, computer, feet)
 
