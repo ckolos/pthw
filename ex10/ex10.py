@@ -19,3 +19,9 @@ hex_cat = "\x26"
 
 print "boing", loud_cat
 print "hex cat:", hex_cat
+
+# create a complex format
+format_list = "I am a list:\n\t* %r\n\t* %r\n\t* %r\n\t* %r"
+
+print format_list % ("This", "is", "a", "list" )
+print format_list % ("%r",'%r',"%r",'%r')
